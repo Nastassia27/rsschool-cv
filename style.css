@@ -13,6 +13,9 @@ body{
 html {
     scroll-behavior: smooth; 
   }
+span{
+    font-style: italic;
+}
 p {
     display: block;
     margin-block-start: 1em;
