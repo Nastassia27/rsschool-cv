@@ -19,7 +19,11 @@ box-sizing: border-box;
     max-width: 1440px;
     margin: 0 auto;
 }
-.nav-list {
+
+.nav{
+    display: block;
+}
+.menu-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -40,6 +44,12 @@ box-sizing: border-box;
     display: flex;
     flex-wrap: wrap; 
   }
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+      }
   .section{
       width: 50%;
   }
@@ -54,4 +64,32 @@ box-sizing: border-box;
     .section {
       width: 100%;
     }
+  }
+
+  .rss{
+    width: 121px;
+    height: 45px;
+    background-image: url(assets/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .header{
+      background-color:darkgray;
+  }
+  .footer{
+      background-color:#0a3510;
+      padding: 20px;
+  }
+
+  .main-title{
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
   }
